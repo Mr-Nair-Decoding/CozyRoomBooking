@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/Mr-NairAtCoding/CozyRoomBookingstatic/js/main.20307c73.chunk.js",
+    "main.js.map": "/Mr-NairAtCoding/CozyRoomBookingstatic/js/main.20307c73.chunk.js.map",
+    "runtime-main.js": "/Mr-NairAtCoding/CozyRoomBookingstatic/js/runtime-main.dea1b3ce.js",
+    "runtime-main.js.map": "/Mr-NairAtCoding/CozyRoomBookingstatic/js/runtime-main.dea1b3ce.js.map",
+    "index.html": "/Mr-NairAtCoding/CozyRoomBookingindex.html",
+    "precache-manifest.e74dc41f218353f8c46773242411deab.js": "/Mr-NairAtCoding/CozyRoomBookingprecache-manifest.e74dc41f218353f8c46773242411deab.js",
+    "service-worker.js": "/Mr-NairAtCoding/CozyRoomBookingservice-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dea1b3ce.js",
+    "static/js/main.20307c73.chunk.js"
+  ]
+}
