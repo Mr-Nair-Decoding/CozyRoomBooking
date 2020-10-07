@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Owl carousel</title>
+	<link rel="stylesheet" type="text/css" href="C:\Users\1Sachin\Desktop\owl\OwlCarousel2-2.3.4\dist\assets\owl.carousel.css">
+	<link href="C:\Users\1Sachin\Desktop\owl\OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css">
+	<style type="text/css">
+		.*{
+		margin:0;
+		padding:0;	
+		}
+		.img-fluid{
+			max-width: 100%;
+			height: 100%;
+			display:block;
+		}
+	</style>
+</head>
+<body>
+<div class="owl-carousel owl-theme">
+    <div class="item">
+    	
+    	<img src="pics/bg_1.jpg">
+    </div>
+     <div class="item">
+    	
+    	<img src="pics/bg_2.jpg">
+    </div>
+     <div class="item">
+    	
+    	<img src="pics/bg_3.jpg">
+    </div>
+</body>
+<script type="text/javascript" src="C:\Users\1Sachin\Desktop\owl\OwlCarousel2-2.3.4\docs\assets\vendors\jquery.min.js"></script>
+<script type="text/javascript" src="C:\Users\1Sachin\Desktop\owl\OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+<script type="text/javascript">
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+	
+</script>
+
+</html>

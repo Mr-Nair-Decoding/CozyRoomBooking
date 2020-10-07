@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>findstate-Bootstrap Templets</title>
+  <link rel="stylesheet" type="text/css" href="G:\bootstrap\bootstrap\css\bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Akronim|Bree+Serif&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='https://use.fontawesome.com/releases/v5.4.1/css/all.css'>
+
+  <script href="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <script href="bootstrap\bootstrap\js\jquery.min.js"></script>
+  <script href="bootstrap\bootstrap\js\popper.min.js"></script>
+  <script href="bootstrap\bootstrap\js\bootstrap.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" type="text/css" href="home.css">
+  <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4\dist\assets\owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="OwlCarousel2-2.3.4\dist\assets\owl.theme.default.min.css">
+  <script type="text/javascript" src="jquery.min.js"></script>
+  <script type="text/javascript" src="OwlCarousel2-2.3.4\dist\owl.carousel.js"></script>
+  <style type="text/css">
+      .parent_box{
+        display: flex;
+
+      }
+      img
+      {  
+
+        height: 1000px;
+        width: 1000px;
+      }
+  </style>
+</head>
+<body>
+  <section class="mt-5 pt-5  text-warning ">
+  <div class=" text-center  justify-content-center d-flex text font-weight-bold ">
+    <div class="line2 mb-1 "></div>
+    <div class="ml-1 pl-1 space">Happy client</div>
+    <div class="line2 mb-1 pl-1"></div>
+  </div>
+  <div class="text-dark text-center font-weight-bold mb-5">
+    <h1 class="h1 font-weight-bold">Happy Client</h1>
+  </div>
+</section>
+<div class="container">
+    <div class="parent_box owl-carousel owl-theme">
+            <div class="box">
+          <img src="pics/bg_1.jpg">
+        </div>
+        <div class="box">
+          <img src="pics/bg_2.jpg">
+        </div>
+        <div class="box">
+         <img src="pics/bg_3.jpg">
+        </div>
+        <div class="box">
+         <img src="pics/bg_1.jpg">
+        </div>
+        <div class="box">
+          <img src="pics/bg_2.jpg">
+        </div>
+        <div class="box">
+        <img src="pics/bg_3.jpg">
+        </div>
+        <!-- <div class="box">
+           4 
+        </div>
+        <div class="box">
+           5 
+        </div>
+        <div class="box">
+           6
+        </div>
+        <div class="box">
+           1 
+        </div>
+        <div class="box">
+            2
+        </div>
+        <div class="box">
+           3 
+        </div> -->
+       <!--  <div class="box">
+           4 
+        </div>
+        <div class="box">
+           5 
+        </div>
+        <div class="box">
+           6
+        </div>
+        <div class="box">
+           1 
+        </div>
+        <div class="box">
+            2
+        </div>
+        <div class="box">
+           3 
+        </div>
+        <div class="box">
+           4 
+        </div>
+        <div class="box">
+           5 
+        </div>
+        <div class="box">
+           6
+        </div> -->
+        
+        
+
+    </div>    
+</div>    
+<script >
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    nav:false,
+    dots:true,
+    autoplay:true,
+    margin:10,
+   // autoplayTimeout:1000
+    //items:3;
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            loop:false
+        }
+    }
+
+
+})
+   // $('.owl-carousel').owlCarousel({
+   //      items:4,
+   //      loop:false,
+   //      center:true,
+   //      margin:10,
+   //      URLhashListener:true,
+   //      autoplayHoverPause:true,
+   //      startPosition: 'URLHash'
+   //  });
+</script>
+</body>
+</html>
